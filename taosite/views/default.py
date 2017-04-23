@@ -16,6 +16,11 @@ def my_view(request):
     return {'one': one, 'project': 'taosite'}
 
 
+@view_config(route_name='items', renderer='../templates/items.mako')
+def items(request):
+    return {'one': None, 'project': 'taosite'}
+
+
 db_err_msg = """\
 Pyramid is having a problem using your SQL database.  The problem
 might be caused by one of the following things:

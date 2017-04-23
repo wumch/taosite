@@ -1,0 +1,79 @@
+
+.hint {
+    font-size: 0.8em;
+    color: #aaa;
+}
+
+.col-lg-3 {
+    padding: 0 7px 20px 7px;
+}
+
+.item {
+    border: 1px solid #eee;
+}
+.item:hover {
+    border-color: #ff4400;
+}
+.item:after {
+    clear: both;
+}
+
+.item>img {
+    width: 100%;
+}
+
+.item-desc {
+    padding: 5px 5px 0;
+    line-height: 1em;
+}
+
+.icon-tmall {
+    width:16px; height:16px;
+    float: right;
+    margin: 0;
+    background: url("http://img.alicdn.com/tps/TB1XfA2JVXXXXcQXXXXXXXXXXXX-16-16.png") no-repeat;
+}
+
+.post-price {
+    margin: 0 0 0 12px;
+}
+
+.price {
+    color: #db3a00;
+    font-size: 1.4em;
+}
+.price:before {
+    content: '￥';
+}
+.col-xs-6 .price {
+    font-size: 1em;
+}
+
+.coupon {
+    display: inline-block;
+    width: auto;
+    height: 16px;
+    padding:0;
+}
+.coupon-icon {
+    display:inline-block;
+    width: 17px;
+    height: 16px;
+    line-height: 16px;
+    background: url("http://img.alicdn.com/tps/TB11209NpXXXXbkXpXXXXXXXXXX-17-16.png") no-repeat;
+    vertical-align: bottom;
+}
+.coupon-worth {
+    display:inline-block;
+    padding: 0 2px;
+    margin: 0 0 0 -5px;
+    height: 16px;
+    line-height: 15px;
+    font-size: 80%;
+    border: 1px solid #f50;
+    border-radius: 0 2px 2px 0;
+    color:#E64D00;
+}
+.coupon-worth:after {
+    content: '元';
+}
