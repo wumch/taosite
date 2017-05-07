@@ -31,7 +31,7 @@
     width:16px; height:16px;
     float: right;
     margin: 0;
-    background: url("http://img.alicdn.com/tps/TB1XfA2JVXXXXcQXXXXXXXXXXXX-16-16.png") no-repeat;
+    background: url("//img.alicdn.com/tps/TB1XfA2JVXXXXcQXXXXXXXXXXXX-16-16.png") no-repeat;
 }
 
 .post-price {
@@ -44,9 +44,6 @@
 }
 .price:before {
     content: '￥';
-}
-.col-xs-6 .price {
-    font-size: 1em;
 }
 
 .coupon {

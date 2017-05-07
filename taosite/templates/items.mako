@@ -9,7 +9,7 @@
 % for _ in range(12):
   <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
     <div class="item">
-      <img src="http://img.alicdn.com/imgextra/i1/TB1UwEjPVXXXXXcaFXXYXGcGpXX_M2.SS2_430x430.jpg" />
+      <img src="//img.alicdn.com/imgextra/i1/TB1UwEjPVXXXXXcaFXXYXGcGpXX_M2.SS2_430x430.jpg" />
       <div class="item-desc">
         <p>
           <span>千蝶芙等等毛边高腰宽松牛仔短裤</span>
