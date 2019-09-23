@@ -1,6 +1,6 @@
-### taosite
+### ts
 ----
-an awesome site.
+an awesome tool.
 
 
 ----
@@ -9,7 +9,7 @@ an awesome site.
 
 ```bash
 # Change directory into your newly created project.
-cd taosite
+cd ts
 
 # Create a Python virtual environment.
 python3 -m venv env
